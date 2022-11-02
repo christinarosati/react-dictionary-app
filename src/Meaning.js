@@ -2,8 +2,6 @@ import React from "react";
 import Synonyms from "./Synonyms";
 
 export default function Meaning(props) {
-  console.log(props.meaning);
-  console.log(props.meaning.synonyms);
   if (props.meaning.definitions[0].example) {
     return (
       <div className="Meaning">
