@@ -12,7 +12,15 @@ export default function App() {
           <Dictionary defaultKeyword="sunset" />
         </main>
         <footer className="App-footer">
-          <small>Coded by Christina Rosati</small>
+          <small>
+            <a
+              href="https://github.com/christinarosati/react-dictionary-app"
+              target="_blank"
+            >
+              Open-source code
+            </a>{" "}
+            by Christina Rosati
+          </small>
         </footer>
       </div>
     </div>

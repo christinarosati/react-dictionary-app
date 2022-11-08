@@ -2,6 +2,11 @@ body {
   background: #d2bd9a;
 }
 
+.App {
+  max-width: 960px;
+  margin: 0 auto;
+}
+
 .App-header {
   margin: 30px 0;
 }
@@ -14,4 +19,5 @@ body {
 
 .App-footer {
   text-align: center;
+  margin-bottom: 30px;
 }

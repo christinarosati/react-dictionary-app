@@ -2,8 +2,6 @@ import React from "react";
 import "./Phonetics.css";
 
 export default function Phonetics(props) {
-  console.log(props.phonetics);
-
   function handleListen(event) {
     event.preventDefault();
     let audioElement = document.querySelector("audio");
