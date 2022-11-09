@@ -16,7 +16,7 @@ export default function App() {
             <a
               href="https://github.com/christinarosati/react-dictionary-app"
               target="_blank"
-              rel="noopener"
+              rel="noreferrer"
             >
               Open-source code
             </a>{" "}
