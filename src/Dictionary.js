@@ -55,7 +55,7 @@ export default function Dictionary(props) {
               defaultValue={props.defaultKeyword}
             />
           </form>
-          <div className="hint">suggested words: food, wine, forest...</div>
+          <div className="hint">i.e. food, wine, forest...</div>
         </section>
         <Results results={results} />
         <Photos photos={photos} />
